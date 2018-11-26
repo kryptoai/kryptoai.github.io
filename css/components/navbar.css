@@ -1,0 +1,52 @@
+/* Main navbar */
+.my-navbar {
+  background: #6da2fc;
+  transition: 0.5s background-color ease;
+  height: 70px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-scroll {
+  background-color: #6da2fc;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+/* Logo */
+.navbar-logo img {
+  width: 25%;
+  height: 25%;
+  margin-left: 55px;
+}
+
+/* Right section */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Basic navbar item */
+.navbar-item {
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+/* Navbar link */
+.navbar-link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+}
+.navbar-link:hover {
+  color: #FAAA22;
+  text-decoration: none;
+}

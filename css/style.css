@@ -1,0 +1,130 @@
+@import url("components/navbar.css");
+@import url("components/footer.css");
+@import url("components/button.css");
+
+body {
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+.homepage {
+  background: #6da2fc;
+  padding: 100px 0;
+  height: 100vh;
+}
+
+.announcement {
+  line-height: 26px;
+  margin: 0 0 55px;
+  padding: 0 12px 0 5px;
+  border-radius: 15px;
+  width: auto;
+  display: inline-flex;
+  align-items: center;
+  font-weight: 500;
+  color: #fff;
+  background: rgba(0,0,140,.08);
+  text-decoration: none;
+}
+
+.announcement:hover {
+  color: #fff;
+  text-decoration: none !important;
+}
+
+.announcement:after {
+  content: "\27A2";
+  font: normal 16px;
+  bottom: 1px;
+}
+
+.announcement .new-pill {
+  padding: 0 6px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  background: #FAAA22;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+.announcement .message {
+  flex: 1;
+  margin: 0 7px 0 6px;
+}
+
+.homepage-message h1 {
+  color: white;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.homepage-message h2 {
+  color: white;
+  font-size: 16px;
+  font-weight: medium;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+.homepage ul {
+  margin-top: 65px;
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.homepage li:first-child a {
+  margin-right: 23px;
+  color: #fff;
+  background: #FAAA22;
+  text-shadow: 0 1px 3px rgba(36,180,126,.4);
+}
+
+.homepage li:last-child a {
+  color: #7795f8;
+}
+
+.partners {
+  background: #f6f9fc;
+  padding: 20px;
+}
+
+.partners-message {
+  text-align: center;
+}
+
+.partners-message h3 {
+  color: #525f7f;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.partners img {
+  height: 40px;
+  margin: 0 50px;
+}
+
+.partners-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.projects {
+  padding: 50px;
+  background: #ffffff;
+}
+
+.projects h2 {
+ color: #FAAA22;
+ font-weight: bold;
+}
+
+.projects p {
+ color: #525f7f;
+ font-weight: medium;
+}
+
+
+
