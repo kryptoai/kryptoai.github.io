@@ -86,7 +86,7 @@ body {
 
 .partners {
   background: #f6f9fc;
-  padding: 20px;
+  padding: 80px;
 }
 
 .partners-message {
@@ -94,7 +94,7 @@ body {
 }
 
 .partners-message h3 {
-  color: #525f7f;
+  color: #4c4c4c;
   font-size: 16px;
   font-weight: bold;
 }
@@ -102,6 +102,18 @@ body {
 .partners img {
   height: 40px;
   margin: 0 50px;
+}
+
+.partners img {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
+
+/* Disable grayscale on hover */
+.partners img:hover {
+  -webkit-filter: grayscale(0);
+  filter: none;
 }
 
 .partners-image {
@@ -122,9 +134,55 @@ body {
 }
 
 .projects p {
- color: #525f7f;
+ color: #4c4c4c;
  font-weight: medium;
 }
 
+.about {
+  background: #f6f9fc;
+  padding: 80px;
+}
 
+.about-message {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.about .row {
+  text-align: center;
+}
+
+.about .row img {
+  border-radius: 50%;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.about .row a {
+  color: #7795f8;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.contact {
+  background: #f6f9fc;
+  padding: 80px;
+}
+
+.contact-message {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.contact-message p {
+  color: #4c4c4c;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.contact-message a {
+  color: #fff;
+  background: #FAAA22;
+}
 
