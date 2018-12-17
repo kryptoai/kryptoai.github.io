@@ -60,7 +60,8 @@ body {
 
 .homepage-message h2 {
   color: white;
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 26px;
   font-weight: medium;
   padding: 10px 0;
   margin-top: 20px;
